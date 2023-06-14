@@ -5,11 +5,11 @@ import './Statistics.css';
 const Statistics = ({ good, neutral, bad, total, positivefeedback }) => {
   return (
     <>
-      <p>Good:{good}</p>
-      <p>Neutral:{neutral}</p>
-      <p>Bad:{bad}</p>
-      <p>Total:{total}</p>
-      <p>PositiveFeedback:{positivefeedback} %</p>
+      <p className='stat_good'>Добре:{good}</p>
+      <p className='stat_neutral'>Нейтрально:{neutral}</p>
+      <p className='stat_bad'>Погано:{bad}</p>
+      <p className='stat_total'>Загалом:{total}</p>
+      <p className='stat_positivefeedback'>Позитивний Відгук:{positivefeedback} %</p>
     </>
   );
 };

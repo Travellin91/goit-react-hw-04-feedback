@@ -56,3 +56,31 @@
 .statistics-value {
   margin-left: 10px;
 }
+
+.stat_good {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.stat_neutral {
+  display: flex;
+  justify-content: center;
+  color: darkcyan;
+  
+}
+.stat_bad {
+  display: flex;
+  justify-content: center;
+  color: tomato;
+}
+.stat_total {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+}
+.stat_positivefeedback {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}

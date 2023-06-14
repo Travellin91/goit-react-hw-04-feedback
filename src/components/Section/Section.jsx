@@ -4,7 +4,7 @@ import './Section.css';
 
 const Section = ({title, children }) => {
 return (
-    <div className='container'>
+    <div className='container section'>
         <h2 className='title'>{title}</h2>
         {children}
     </div>
