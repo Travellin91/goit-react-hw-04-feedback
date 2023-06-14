@@ -50,7 +50,7 @@ const App = () => {
     <div className="container">
       <Section title="Please leave feedback">
         <Feedback
-          options={['Добре', 'Нейтрально', 'Погано']}
+          options={['good', 'neutral', 'bad']}
           onLeaveFeedback={handleButtonClick}
         />
       </Section>
